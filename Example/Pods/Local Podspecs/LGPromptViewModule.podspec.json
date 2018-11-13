@@ -1,0 +1,22 @@
+{
+  "name": "LGPromptViewModule",
+  "version": "0.1.0",
+  "summary": "A short description of LGPromptViewModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/applekwork@163.com/LGPromptViewModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "applekwork@163.com": "wxguolj@yutong.com"
+  },
+  "source": {
+    "git": "https://github.com/applekwork@163.com/LGPromptViewModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LGPromptViewModule/Classes/**/*"
+}
