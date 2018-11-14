@@ -1,5 +1,5 @@
 PODS:
-  - LGPromptViewModule (0.1.0)
+  - LGPromptViewModule (0.2.1)
 
 DEPENDENCIES:
   - LGPromptViewModule (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LGPromptViewModule: 258c5134f023347b8ee572a57fb1da2ee2c9df59
+  LGPromptViewModule: f8187bd8db6ad9651f8b5b835b615889152a863f
 
 PODFILE CHECKSUM: 2646bad3d0d676978a3064327f1694e9ae5ae5a8
 
