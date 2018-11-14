@@ -20,6 +20,14 @@
 + (instancetype)showAddedTo:(UIView *)view title:(NSString *)title;
 
 /**
+ @添加页面
+
+ @param view 将要添加的视图
+ @param tips 标题数组
+ */
++ (instancetype)showAddedTo:(UIView *)view tips:(NSArray *)tips;
+
+/**
  @移除页面
 
  @param view 从父视图移除视图

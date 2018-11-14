@@ -27,7 +27,6 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.backgroundColor = [UIColor clearColor];
-        _tipArray = @[@"加载中.",@"加载中..",@"加载中..."];
         [self addSubview:self.backView];
         [self addSubview:self.imageView];
         [self addSubview:self.titleLabel];
@@ -41,16 +40,28 @@
     promptView.titleLabel.text = title;
     [promptView setupdateLayout];
     [promptView.imageView startAnimating];
+    [view addSubview:promptView];
+    return promptView;
+}
++ (instancetype)showAddedTo:(UIView *)view tips:(NSArray *)tips {
+    [LGLoadingMoreView removeAllPromptFromSuperView:view];
+    LGLoadingMoreView *promptView = [[LGLoadingMoreView alloc]initWithView:view];
+    promptView.tipArray = tips;
+    if (tips && [tips count] > 0) {
+        promptView.titleLabel.text = [tips firstObject];
+    }
+    [promptView setupdateLayout];
+    [promptView.imageView startAnimating];
     [promptView time];
     [view addSubview:promptView];
     return promptView;
 }
 - (void)oneSecondTouch {
     self.index ++;
-    if (self.index > 4) {
+    if (self.index > 1000) {
         self.index = 0;
     }
-    if (self.index % 4 == 0) {
+    if (self.index % 5 == 0) {
         self.titleLabel.text = self.tipArray[self.index % [self.tipArray count]];
     }
 }

@@ -7,8 +7,9 @@
 //
 
 #import "LGViewController.h"
-
+#import <LGPromptViewModule/LGLoadingMoreView.h>
 @interface LGViewController ()
+@property (weak, nonatomic) IBOutlet UIView *contentView;
 
 @end
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)loadMoreAction:(id)sender {
+    [LGLoadingMoreView showAddedTo:self.contentView title:@"加载中..."];
+}
+- (IBAction)cancelForView:(id)sender {
+    [LGLoadingMoreView cancelForView:self.contentView];
 }
 
 - (void)didReceiveMemoryWarning

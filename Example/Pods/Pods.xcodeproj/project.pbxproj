@@ -1,0 +1,1110 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056F2347CB46D6D0C50BC9C07070BDB0 /* hud_loading20.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8B380628B3393E096DF948D7103E5E /* hud_loading20.png */; };
+		0808F36542B9451C4DE84B79E06B4EB4 /* hud_loading11.png in Resources */ = {isa = PBXBuildFile; fileRef = D5360D1B0FB2F77A613A3C637EA041AB /* hud_loading11.png */; };
+		093C17CBD620B7B407E952EA2CE7797C /* Pods-LGPromptViewModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08063C44C9C2ABF9012F8B4826C09836 /* Pods-LGPromptViewModule_Tests-dummy.m */; };
+		09BD9FD354A9AB0751F6CE97BDE5ED13 /* hud_loading18.png in Resources */ = {isa = PBXBuildFile; fileRef = 563BD00F0575DC456BBC11F5C08031E7 /* hud_loading18.png */; };
+		0A5E167DAAD268E4C1685C673ED23907 /* hud_loading35.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3E6879DC5654C389F961C775C84DC1 /* hud_loading35.png */; };
+		0A937BB30C41598682642A0A119B72A4 /* loading31.png in Resources */ = {isa = PBXBuildFile; fileRef = CF68772B325489B6C87AEAEF32870EEA /* loading31.png */; };
+		0BCA19F708A933B8FF77A9B1412ED1A4 /* LGNoDataView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7C00C5AF58F1FD8697CA1E6F62B8C3 /* LGNoDataView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1502DB05FA67FF663CC59D5F9982C42F /* hud_loading3.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C840E9E3FCB0034596CB19CD533EEE /* hud_loading3.png */; };
+		15FDD06B65E49A5E3AAFCF5439A3FD0A /* LGRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5045C83BE5E775E4D1E626FFE8A76DA /* LGRefreshView.m */; };
+		17C0EC99EDC5E350A0EA618BBCDF478C /* loading29.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CDC84FAD0AC44783492189142FEDAB /* loading29.png */; };
+		1892CA403187054175D6B4FBC4E37A78 /* loading14.png in Resources */ = {isa = PBXBuildFile; fileRef = 2696F5C0653748BCDE9112E7277011D8 /* loading14.png */; };
+		18B6DEF31461B927CBA5EDEE6270945D /* hud_loading19.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE05B9D384D882FE50336E72E7FF0A /* hud_loading19.png */; };
+		1AFC1ED1740A8F22A501ED9E6C955F59 /* hud_loading32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFF4844E5995E2F66136A9BBCAD308B /* hud_loading32.png */; };
+		1E4B1A060480CC4628118FF641FA6949 /* loading23.png in Resources */ = {isa = PBXBuildFile; fileRef = BD54D54E3CAD6F339261FC7035D8EDCE /* loading23.png */; };
+		1EFCFE9FE4C4CC2C21C5561E9AFE60BC /* LGToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 768FC9D0210EB4612AAC5282E608DE77 /* LGToastView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2370A796FE97B21D0CC80C797F3537F1 /* loading30.png in Resources */ = {isa = PBXBuildFile; fileRef = F943C79DB0553A0A9BE0CB5B97E345CD /* loading30.png */; };
+		24E144CFAEED98A65C5D70F83D1F671D /* hud_loading17.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9A695BCB0F0BFC8BA7E3AA172E53D1 /* hud_loading17.png */; };
+		256DA201C9675A130FCA4861548BB661 /* hud_loading14.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E828EEACA6E5EC60E46D89DBA4D959 /* hud_loading14.png */; };
+		2817CB1C7685844DB4AC2A7EF1658018 /* nil_prompt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39DEAB147024F9DA2CA163FAFF9767F2 /* nil_prompt@2x.png */; };
+		2BDBC2EE020176DB6452C4E6912DDBF9 /* hud_loading37.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D09C8E01C6D75AAA120EA66FF74130A /* hud_loading37.png */; };
+		30FBFE93FFDFA2536D677F6EAEECDD29 /* loading20.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C973CD4BA511FFCB545CEF4F1F7E721 /* loading20.png */; };
+		31C7023281CCE334CD899918B726A6B6 /* LGToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4270193BF818CADC373A856502AC24 /* LGToastView.m */; };
+		31D78E9D09B7F00A6C694978F6DD12F1 /* hud_loading10.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFCA9906B8FF438E6412431A888644B /* hud_loading10.png */; };
+		328C7C0BD9C338D0F03AE67BF38228AB /* loading16.png in Resources */ = {isa = PBXBuildFile; fileRef = 515190F6160DF607CA0CFCD51EB7EE17 /* loading16.png */; };
+		3433E80823D843FEC428BF0D16CEAA63 /* loading18.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5333B0800D8711B44D282B8CAD353E /* loading18.png */; };
+		3C4B7AF0AFF338B247867EC8435CCC3D /* UIImage+LGHUDModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDF4BE084AE9376288A46EBA562F7A4 /* UIImage+LGHUDModule.m */; };
+		3CF0FEBD570E3348BB0484748D161C36 /* hud_loading24.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CA873D74585863BDEE132A9EF71B4D /* hud_loading24.png */; };
+		3DE77BAE25D3C3AEFFCF19F2A258913C /* loading17.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D59657B1E00BD9C8552D7DB02288C25 /* loading17.png */; };
+		46D114FB3743CE76B0E590859C2FC9F1 /* hud_loading25.png in Resources */ = {isa = PBXBuildFile; fileRef = 9894AD76B4EBAB7610895E8CF6EF10A8 /* hud_loading25.png */; };
+		48B8DD60E86A80651978468D4878DD28 /* hud_loading13.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9BC5F5CBD7A957EC3CCC80A4BA5387 /* hud_loading13.png */; };
+		4C87272E2E678C708D3B45732B1DFA45 /* nil_prompt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F3295A5AF1618FE0AABA44DBF1AA0A /* nil_prompt@3x.png */; };
+		4E948E0E9281E60A9B613259D1007F55 /* hud_loading6.png in Resources */ = {isa = PBXBuildFile; fileRef = 56CB4C3CEF7B523D2722ABD7F840015D /* hud_loading6.png */; };
+		50F207F86C481B17EDDBAB3C29E88CC6 /* loading27.png in Resources */ = {isa = PBXBuildFile; fileRef = 623045AF745380FD9056949445079EFC /* loading27.png */; };
+		514A6A0E1EEE6E412B1A8B631E07B9DC /* loading34.png in Resources */ = {isa = PBXBuildFile; fileRef = 43113BD8A8F5B11995CCFEA8697AD287 /* loading34.png */; };
+		584C9F6D5C22102AB3D07FCCE0DA6954 /* hud_loading1.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF79E2AB2A4A0BE3EB8369A40E83B9C /* hud_loading1.png */; };
+		5C4859378D1A76ECBD57F44F97CBCE66 /* hud_loading39.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4206750C3F4E970A30FE1A5A8D8A7F /* hud_loading39.png */; };
+		5C83AB3ECF71AEBCD327F44143396596 /* loading4.png in Resources */ = {isa = PBXBuildFile; fileRef = 439E61D09DAB16617A714E3E664956CE /* loading4.png */; };
+		5D6CFEE9AED67F183EB701F3CF052130 /* loading11.png in Resources */ = {isa = PBXBuildFile; fileRef = 394B9F32FA47C21CC3D165DAB494A379 /* loading11.png */; };
+		5E188B232E3EFA60A3195439462A95A8 /* hud_loading9.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BC7832D9D550B1DD30115C2D43C58E /* hud_loading9.png */; };
+		5F77AE6990924BDA9F59E8762B909811 /* loading5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE109608E6E90430BB82036EBA22159 /* loading5.png */; };
+		61339DE25F69EA57E6E495637A526F0E /* loading21.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E2FF7B467FD3A443C018A228372258 /* loading21.png */; };
+		6223E6BBA700FC7F3D35312B03A4FEA5 /* loading26.png in Resources */ = {isa = PBXBuildFile; fileRef = EBAF590A46D4C9A01ACD5E2C763E1027 /* loading26.png */; };
+		6421515B864DDBF7996C3CCA8F7B1580 /* hud_loading16.png in Resources */ = {isa = PBXBuildFile; fileRef = B93EFD3A8DDECC91147F4EE2ED655C2E /* hud_loading16.png */; };
+		66CB15F3DAC9D4A2C2D8D6A65D4B1841 /* UIImage+LGHUDModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0C656AF1917BE7E5415CB4364BA0CA /* UIImage+LGHUDModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		672798B4972B5A3089C7ACAE9DA15CFA /* hud_loading28.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FDE6436790E8F9755F2EDBD25AA353B /* hud_loading28.png */; };
+		68AE196CA7146DE72FBEAF1AB625320F /* LGLoadingMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB30372926A01C6D74A56268A01ECE1 /* LGLoadingMoreView.m */; };
+		6925C60F5EA62E4DA062996B1D6C75C7 /* LGPromptViewModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B670D6F351EACCFC89047AC294A5778 /* LGPromptViewModule-dummy.m */; };
+		713FFC912CD58B9C02F254CE1C14280A /* hud_loading34.png in Resources */ = {isa = PBXBuildFile; fileRef = 334628924B29A48C32E8F457AA00CE30 /* hud_loading34.png */; };
+		76F4DBF62802EC612891D73B4A6C0680 /* hud_loading33.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FD8B7F787640DE3E98A724B7AFD47B /* hud_loading33.png */; };
+		7845E9F88C5E11C4D347C84A79BD98E5 /* loading25.png in Resources */ = {isa = PBXBuildFile; fileRef = 282B0F024FD478A95A1E2F59D7194CEE /* loading25.png */; };
+		79F756CB8F686415B3B638FC6901BAFB /* loading12.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F5595132AC7646FFF66098AD0383B83 /* loading12.png */; };
+		7BC9C8B8F3A6A41ABC238A5E81B4FAEF /* hud_loading7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4136A5AA16443D1ED9A8F849B2279990 /* hud_loading7.png */; };
+		8209DD2ABDAB3D39FCA5C7F47591EF29 /* loading0.png in Resources */ = {isa = PBXBuildFile; fileRef = E77D16652BE47F4CBB26B84D090C2BD1 /* loading0.png */; };
+		857A1A2C41181CB0E1187906DBF506DE /* hud_loading26.png in Resources */ = {isa = PBXBuildFile; fileRef = 42A6CD3F7AACFDACE942D7A97989E880 /* hud_loading26.png */; };
+		8891940455F9DC0418C118CD7B74C8EE /* hud_loading8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5F2744DEC7AC49E38820ACE00E9BD6 /* hud_loading8.png */; };
+		90FAAC5EB95EBC24D6D9B6A5EB950CB3 /* loading22.png in Resources */ = {isa = PBXBuildFile; fileRef = B41DB5D974526305E16BB7A44693D0D3 /* loading22.png */; };
+		91F854BC84835C9A5149D92F554E4879 /* hud_loading22.png in Resources */ = {isa = PBXBuildFile; fileRef = FE2B2DF2DB939B3A8A6BB5025B059456 /* hud_loading22.png */; };
+		92A0D8FF5AA487ED8318270E4D61C759 /* loading15.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0B0E291C55B61FB2C855AB16DC26E8 /* loading15.png */; };
+		93629C29B6322C9A357AEDD463D49C77 /* loading7.png in Resources */ = {isa = PBXBuildFile; fileRef = 05AD15930D7FDE55D51E798BA2CEFDBC /* loading7.png */; };
+		96715B5A07ED37B93B8219FDE5E2298D /* loading35.png in Resources */ = {isa = PBXBuildFile; fileRef = 125AFF574F162A7312D5678099B34726 /* loading35.png */; };
+		96C8C5F56ABC0D2871202AAA85B70FA4 /* networking_failed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 768AA2496715FB403286DDCF3389B70B /* networking_failed@2x.png */; };
+		974D009A5B9BC865567A4A7AEF3B6568 /* hud_loading15.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B97164E09D4FEEEFEBE39970E766D8B /* hud_loading15.png */; };
+		9781AC14FA65D16CF70F8CC93DA68BB8 /* LGRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E23A834CC8A34B6D7B23467D8D04889 /* LGRefreshView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9AA982A75C499CC2BA6DCC47DB407162 /* LGNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528FAC35EA3F6B212845F5D8D9989B4 /* LGNoDataView.m */; };
+		9BD3D5BD943D752E30ADE16B9A0FEA57 /* hud_loading40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A63A5FD8199B6632101A2B7D7E2E270 /* hud_loading40.png */; };
+		9BFFAD7637234E0608AAA0964FBFD74F /* loading33.png in Resources */ = {isa = PBXBuildFile; fileRef = AA53378CFFC62B926BFA4E31DCA5E80E /* loading33.png */; };
+		9F92EDDCE2D82BFB2D07150E095670CB /* LGNetFailedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 866198C5F79044062B1CEDA02B49A2F9 /* LGNetFailedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A11EAD4FC7FB049F9B2F75A4B3C2BD0B /* hud_loading29.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C57C5D63243E63DB7F15608093DFD06 /* hud_loading29.png */; };
+		A5AA878194F44E42A3062903CC9A3CC1 /* loading9.png in Resources */ = {isa = PBXBuildFile; fileRef = 40D0C988ED2264A946E8CAB5D11D1DA9 /* loading9.png */; };
+		A5B101F512E43D49BEAE5B5E1CE72316 /* loading10.png in Resources */ = {isa = PBXBuildFile; fileRef = DB5006393D7F765D4010B08DC070338E /* loading10.png */; };
+		AC43F73BB86EE5FC363048C8F9ECE025 /* loading24.png in Resources */ = {isa = PBXBuildFile; fileRef = 309F8677291C4058415784C7B31E04B0 /* loading24.png */; };
+		AE3AC0070C84958221BD77946B902B1B /* hud_loading31.png in Resources */ = {isa = PBXBuildFile; fileRef = F24AB0AD6C72E34F6D0AC593E05CBC3D /* hud_loading31.png */; };
+		AE826DE6E2F2AF2544B51CE122506390 /* loading2.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D971FD9FECBC8FFE09CB0DC08C25C2 /* loading2.png */; };
+		AEE56F2E826FF567919209FC83CACE47 /* hud_loading12.png in Resources */ = {isa = PBXBuildFile; fileRef = A7BE93AD68E21A085357261F3D503ADD /* hud_loading12.png */; };
+		AF77142A035001F5A195BA6B5EB78C12 /* Pods-LGPromptViewModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08051E59AD02D1B9ADCC4D7DDEE5B253 /* Pods-LGPromptViewModule_Example-dummy.m */; };
+		B0E54A9D218BF30CBAF3B063879FFC26 /* LGLoadingMoreView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8217443C884679428E4F4AE870E378E /* LGLoadingMoreView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B40BC37E0DBAF074E92AFEB0857AD3CF /* hud_loading2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AEBE6793716D447F9DAF64879388C9 /* hud_loading2.png */; };
+		B64C04185D0FCE99879500164114BC6B /* loading32.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B4E9671C614654B436BCCCAF07B888 /* loading32.png */; };
+		C196A9D616828A0AAE7A278DB3A03420 /* hud_loading23.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CFFAA99CCE75308C2415D81E277E00 /* hud_loading23.png */; };
+		CD216FA5B347E2AAD684E65B4C5F09F2 /* loading3.png in Resources */ = {isa = PBXBuildFile; fileRef = BB10F79082102D1F50BBF314CAC459FF /* loading3.png */; };
+		CEEB680C83A26C199B136F7374A73E94 /* hud_loading4.png in Resources */ = {isa = PBXBuildFile; fileRef = D338D55CFA0AD0A8B18FFAF577A83650 /* hud_loading4.png */; };
+		CF97F88167AE24A6307A0067A4740B3C /* loading6.png in Resources */ = {isa = PBXBuildFile; fileRef = D3659030155E7BC519B173971E10649B /* loading6.png */; };
+		D41680AA8B822DA6DE9DF494B6485F3A /* LGNetFailedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8E025C6F1D22A69BBBDFE52D3B8699 /* LGNetFailedView.m */; };
+		D5F91DE06D6C599050A0D09A0D367CA6 /* networking_failed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C7D7A01947CE2EC4A03BDF329BD004 /* networking_failed@3x.png */; };
+		D7C017332FF55F6FA41263909FC81ECF /* hud_loading36.png in Resources */ = {isa = PBXBuildFile; fileRef = A983AB63F457CC53BE598D3C9433BAFE /* hud_loading36.png */; };
+		DE5C1084D7B97D5752054A0B4CEDD5B4 /* hud_loading5.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A4CC2D2351C4010328FA39C791BB11 /* hud_loading5.png */; };
+		DF12B1DE099B616C2E3736E1E6BF54E6 /* hud_loading27.png in Resources */ = {isa = PBXBuildFile; fileRef = D8ED4951A146B2A3BF20698C51B5FFFF /* hud_loading27.png */; };
+		E1AF7896A0343C800FE7E7DBEA304D8B /* loading1.png in Resources */ = {isa = PBXBuildFile; fileRef = 015C5678650A30FC8A804419AC8769C3 /* loading1.png */; };
+		E557496C79BD397FC8B3C39F9CA49AC0 /* hud_loading30.png in Resources */ = {isa = PBXBuildFile; fileRef = 16C6C106887BFEC79B7F4A405F20BAA4 /* hud_loading30.png */; };
+		E5A87301BC1AE3B538A8E25D94A970E5 /* hud_loading21.png in Resources */ = {isa = PBXBuildFile; fileRef = 678A2DD2B22B217DF3027116E399243C /* hud_loading21.png */; };
+		E7F79679A8880225733401B4071A6FA3 /* hud_loading38.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF3CD0B71C1FFDE0DBD97D6125DCD26 /* hud_loading38.png */; };
+		EE1E235CC2194D5A6350D2887AA7EB67 /* loading13.png in Resources */ = {isa = PBXBuildFile; fileRef = 175A316F6556C6AC7C6C2F9B769A52F2 /* loading13.png */; };
+		F2533F6DC02CB6BC148D399629823E0B /* loading19.png in Resources */ = {isa = PBXBuildFile; fileRef = 53DC00F733FF3D0CB4D6ABF6755F6CF0 /* loading19.png */; };
+		FDC7742A290C5FCC6BBF316E5CBE2EBB /* loading28.png in Resources */ = {isa = PBXBuildFile; fileRef = BD1DCC022DA64D9E0CEF76A0BB10CA78 /* loading28.png */; };
+		FED6AB1FD3DE8AD4C32AE071BA205CA8 /* loading8.png in Resources */ = {isa = PBXBuildFile; fileRef = C25B2C8E38F2657F5C783AC670C3127F /* loading8.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AC961E33C0EE6DA42FCA975C2AA33D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EF4CC5825413D97C9EC3B02FED4601C;
+			remoteInfo = LGPromptViewModule;
+		};
+		BCB314A5E9F9199D35655A4FEBA9C751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71387AD89608A0E9AF6D1A64D7D2CB01;
+			remoteInfo = "Pods-LGPromptViewModule_Example";
+		};
+		D190813857EAA07660494CD2E2FABCD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 619D1603875DEE8FA8BBBACF8107ED3F;
+			remoteInfo = "LGPromptViewModule-LGPromptViewModule";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015C5678650A30FC8A804419AC8769C3 /* loading1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading1.png; path = LGPromptViewModule/Assets/loading1.png; sourceTree = "<group>"; };
+		05AD15930D7FDE55D51E798BA2CEFDBC /* loading7.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading7.png; path = LGPromptViewModule/Assets/loading7.png; sourceTree = "<group>"; };
+		05B4E9671C614654B436BCCCAF07B888 /* loading32.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading32.png; path = LGPromptViewModule/Assets/loading32.png; sourceTree = "<group>"; };
+		08051E59AD02D1B9ADCC4D7DDEE5B253 /* Pods-LGPromptViewModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGPromptViewModule_Example-dummy.m"; sourceTree = "<group>"; };
+		08063C44C9C2ABF9012F8B4826C09836 /* Pods-LGPromptViewModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGPromptViewModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		09AADF43DF581107BDDC837EA44B9E35 /* libPods-LGPromptViewModule_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LGPromptViewModule_Tests.a"; path = "libPods-LGPromptViewModule_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0B0E291C55B61FB2C855AB16DC26E8 /* loading15.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading15.png; path = LGPromptViewModule/Assets/loading15.png; sourceTree = "<group>"; };
+		0B1CB8622C2054DBD3605C672EC65FDE /* Pods-LGPromptViewModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGPromptViewModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0C57C5D63243E63DB7F15608093DFD06 /* hud_loading29.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading29.png; path = LGPromptViewModule/Assets/hud_loading29.png; sourceTree = "<group>"; };
+		0C973CD4BA511FFCB545CEF4F1F7E721 /* loading20.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading20.png; path = LGPromptViewModule/Assets/loading20.png; sourceTree = "<group>"; };
+		0DE109608E6E90430BB82036EBA22159 /* loading5.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading5.png; path = LGPromptViewModule/Assets/loading5.png; sourceTree = "<group>"; };
+		0F5F2744DEC7AC49E38820ACE00E9BD6 /* hud_loading8.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading8.png; path = LGPromptViewModule/Assets/hud_loading8.png; sourceTree = "<group>"; };
+		0FDE6436790E8F9755F2EDBD25AA353B /* hud_loading28.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading28.png; path = LGPromptViewModule/Assets/hud_loading28.png; sourceTree = "<group>"; };
+		125AFF574F162A7312D5678099B34726 /* loading35.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading35.png; path = LGPromptViewModule/Assets/loading35.png; sourceTree = "<group>"; };
+		16A4CC2D2351C4010328FA39C791BB11 /* hud_loading5.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading5.png; path = LGPromptViewModule/Assets/hud_loading5.png; sourceTree = "<group>"; };
+		16C6C106887BFEC79B7F4A405F20BAA4 /* hud_loading30.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading30.png; path = LGPromptViewModule/Assets/hud_loading30.png; sourceTree = "<group>"; };
+		175A316F6556C6AC7C6C2F9B769A52F2 /* loading13.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading13.png; path = LGPromptViewModule/Assets/loading13.png; sourceTree = "<group>"; };
+		199E33ABA034F114569594946316DCC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		19BC7832D9D550B1DD30115C2D43C58E /* hud_loading9.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading9.png; path = LGPromptViewModule/Assets/hud_loading9.png; sourceTree = "<group>"; };
+		1D4EDEFA27136679AC78540B84441BCB /* libPods-LGPromptViewModule_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LGPromptViewModule_Example.a"; path = "libPods-LGPromptViewModule_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DCE05B9D384D882FE50336E72E7FF0A /* hud_loading19.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading19.png; path = LGPromptViewModule/Assets/hud_loading19.png; sourceTree = "<group>"; };
+		21D170E7DBD981696A9D260FA3378852 /* Pods-LGPromptViewModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGPromptViewModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		247AC753E9EFA8F185D24F8151C833A2 /* Pods-LGPromptViewModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGPromptViewModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2696F5C0653748BCDE9112E7277011D8 /* loading14.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading14.png; path = LGPromptViewModule/Assets/loading14.png; sourceTree = "<group>"; };
+		26FD8B7F787640DE3E98A724B7AFD47B /* hud_loading33.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading33.png; path = LGPromptViewModule/Assets/hud_loading33.png; sourceTree = "<group>"; };
+		282B0F024FD478A95A1E2F59D7194CEE /* loading25.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading25.png; path = LGPromptViewModule/Assets/loading25.png; sourceTree = "<group>"; };
+		309F8677291C4058415784C7B31E04B0 /* loading24.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading24.png; path = LGPromptViewModule/Assets/loading24.png; sourceTree = "<group>"; };
+		334628924B29A48C32E8F457AA00CE30 /* hud_loading34.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading34.png; path = LGPromptViewModule/Assets/hud_loading34.png; sourceTree = "<group>"; };
+		394B9F32FA47C21CC3D165DAB494A379 /* loading11.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading11.png; path = LGPromptViewModule/Assets/loading11.png; sourceTree = "<group>"; };
+		39DEAB147024F9DA2CA163FAFF9767F2 /* nil_prompt@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nil_prompt@2x.png"; path = "LGPromptViewModule/Assets/nil_prompt@2x.png"; sourceTree = "<group>"; };
+		3DDD7236C822C15737DC94B6AF8A860A /* Pods-LGPromptViewModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGPromptViewModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E9A695BCB0F0BFC8BA7E3AA172E53D1 /* hud_loading17.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading17.png; path = LGPromptViewModule/Assets/hud_loading17.png; sourceTree = "<group>"; };
+		3F4206750C3F4E970A30FE1A5A8D8A7F /* hud_loading39.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading39.png; path = LGPromptViewModule/Assets/hud_loading39.png; sourceTree = "<group>"; };
+		40D0C988ED2264A946E8CAB5D11D1DA9 /* loading9.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading9.png; path = LGPromptViewModule/Assets/loading9.png; sourceTree = "<group>"; };
+		4136A5AA16443D1ED9A8F849B2279990 /* hud_loading7.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading7.png; path = LGPromptViewModule/Assets/hud_loading7.png; sourceTree = "<group>"; };
+		42A6CD3F7AACFDACE942D7A97989E880 /* hud_loading26.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading26.png; path = LGPromptViewModule/Assets/hud_loading26.png; sourceTree = "<group>"; };
+		42C24E81128FC92A01FB46CA131FE281 /* LGPromptViewModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGPromptViewModule-prefix.pch"; sourceTree = "<group>"; };
+		43113BD8A8F5B11995CCFEA8697AD287 /* loading34.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading34.png; path = LGPromptViewModule/Assets/loading34.png; sourceTree = "<group>"; };
+		439E61D09DAB16617A714E3E664956CE /* loading4.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading4.png; path = LGPromptViewModule/Assets/loading4.png; sourceTree = "<group>"; };
+		4A5333B0800D8711B44D282B8CAD353E /* loading18.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading18.png; path = LGPromptViewModule/Assets/loading18.png; sourceTree = "<group>"; };
+		4B97164E09D4FEEEFEBE39970E766D8B /* hud_loading15.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading15.png; path = LGPromptViewModule/Assets/hud_loading15.png; sourceTree = "<group>"; };
+		515190F6160DF607CA0CFCD51EB7EE17 /* loading16.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading16.png; path = LGPromptViewModule/Assets/loading16.png; sourceTree = "<group>"; };
+		53DC00F733FF3D0CB4D6ABF6755F6CF0 /* loading19.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading19.png; path = LGPromptViewModule/Assets/loading19.png; sourceTree = "<group>"; };
+		55AEBE6793716D447F9DAF64879388C9 /* hud_loading2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading2.png; path = LGPromptViewModule/Assets/hud_loading2.png; sourceTree = "<group>"; };
+		563BD00F0575DC456BBC11F5C08031E7 /* hud_loading18.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading18.png; path = LGPromptViewModule/Assets/hud_loading18.png; sourceTree = "<group>"; };
+		56CB4C3CEF7B523D2722ABD7F840015D /* hud_loading6.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading6.png; path = LGPromptViewModule/Assets/hud_loading6.png; sourceTree = "<group>"; };
+		58D971FD9FECBC8FFE09CB0DC08C25C2 /* loading2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading2.png; path = LGPromptViewModule/Assets/loading2.png; sourceTree = "<group>"; };
+		5B670D6F351EACCFC89047AC294A5778 /* LGPromptViewModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGPromptViewModule-dummy.m"; sourceTree = "<group>"; };
+		623045AF745380FD9056949445079EFC /* loading27.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading27.png; path = LGPromptViewModule/Assets/loading27.png; sourceTree = "<group>"; };
+		64CDC84FAD0AC44783492189142FEDAB /* loading29.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading29.png; path = LGPromptViewModule/Assets/loading29.png; sourceTree = "<group>"; };
+		6528FAC35EA3F6B212845F5D8D9989B4 /* LGNoDataView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGNoDataView.m; path = LGPromptViewModule/Classes/LGNoDataView.m; sourceTree = "<group>"; };
+		66CA873D74585863BDEE132A9EF71B4D /* hud_loading24.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading24.png; path = LGPromptViewModule/Assets/hud_loading24.png; sourceTree = "<group>"; };
+		678A2DD2B22B217DF3027116E399243C /* hud_loading21.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading21.png; path = LGPromptViewModule/Assets/hud_loading21.png; sourceTree = "<group>"; };
+		6B7C00C5AF58F1FD8697CA1E6F62B8C3 /* LGNoDataView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGNoDataView.h; path = LGPromptViewModule/Classes/LGNoDataView.h; sourceTree = "<group>"; };
+		6C4270193BF818CADC373A856502AC24 /* LGToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGToastView.m; path = LGPromptViewModule/Classes/LGToastView.m; sourceTree = "<group>"; };
+		6E9BC5F5CBD7A957EC3CCC80A4BA5387 /* hud_loading13.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading13.png; path = LGPromptViewModule/Assets/hud_loading13.png; sourceTree = "<group>"; };
+		70F939F0568E5FC311A9A571472D2DE1 /* LGPromptViewModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LGPromptViewModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		74C7D7A01947CE2EC4A03BDF329BD004 /* networking_failed@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "networking_failed@3x.png"; path = "LGPromptViewModule/Assets/networking_failed@3x.png"; sourceTree = "<group>"; };
+		768AA2496715FB403286DDCF3389B70B /* networking_failed@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "networking_failed@2x.png"; path = "LGPromptViewModule/Assets/networking_failed@2x.png"; sourceTree = "<group>"; };
+		768FC9D0210EB4612AAC5282E608DE77 /* LGToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGToastView.h; path = LGPromptViewModule/Classes/LGToastView.h; sourceTree = "<group>"; };
+		7A63A5FD8199B6632101A2B7D7E2E270 /* hud_loading40.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading40.png; path = LGPromptViewModule/Assets/hud_loading40.png; sourceTree = "<group>"; };
+		7CFF4844E5995E2F66136A9BBCAD308B /* hud_loading32.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading32.png; path = LGPromptViewModule/Assets/hud_loading32.png; sourceTree = "<group>"; };
+		7D09C8E01C6D75AAA120EA66FF74130A /* hud_loading37.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading37.png; path = LGPromptViewModule/Assets/hud_loading37.png; sourceTree = "<group>"; };
+		7DB30372926A01C6D74A56268A01ECE1 /* LGLoadingMoreView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGLoadingMoreView.m; path = LGPromptViewModule/Classes/LGLoadingMoreView.m; sourceTree = "<group>"; };
+		7F5595132AC7646FFF66098AD0383B83 /* loading12.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading12.png; path = LGPromptViewModule/Assets/loading12.png; sourceTree = "<group>"; };
+		866198C5F79044062B1CEDA02B49A2F9 /* LGNetFailedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGNetFailedView.h; path = LGPromptViewModule/Classes/LGNetFailedView.h; sourceTree = "<group>"; };
+		8D59657B1E00BD9C8552D7DB02288C25 /* loading17.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading17.png; path = LGPromptViewModule/Assets/loading17.png; sourceTree = "<group>"; };
+		8E23A834CC8A34B6D7B23467D8D04889 /* LGRefreshView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGRefreshView.h; path = LGPromptViewModule/Classes/LGRefreshView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9585E36CCBD1126168002E285FA5E01B /* Pods-LGPromptViewModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGPromptViewModule_Example-resources.sh"; sourceTree = "<group>"; };
+		9894AD76B4EBAB7610895E8CF6EF10A8 /* hud_loading25.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading25.png; path = LGPromptViewModule/Assets/hud_loading25.png; sourceTree = "<group>"; };
+		9A0C656AF1917BE7E5415CB4364BA0CA /* UIImage+LGHUDModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+LGHUDModule.h"; path = "LGPromptViewModule/Classes/UIImage+LGHUDModule.h"; sourceTree = "<group>"; };
+		9BF3CD0B71C1FFDE0DBD97D6125DCD26 /* hud_loading38.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading38.png; path = LGPromptViewModule/Assets/hud_loading38.png; sourceTree = "<group>"; };
+		A5045C83BE5E775E4D1E626FFE8A76DA /* LGRefreshView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGRefreshView.m; path = LGPromptViewModule/Classes/LGRefreshView.m; sourceTree = "<group>"; };
+		A7BE93AD68E21A085357261F3D503ADD /* hud_loading12.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading12.png; path = LGPromptViewModule/Assets/hud_loading12.png; sourceTree = "<group>"; };
+		A8217443C884679428E4F4AE870E378E /* LGLoadingMoreView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGLoadingMoreView.h; path = LGPromptViewModule/Classes/LGLoadingMoreView.h; sourceTree = "<group>"; };
+		A983AB63F457CC53BE598D3C9433BAFE /* hud_loading36.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading36.png; path = LGPromptViewModule/Assets/hud_loading36.png; sourceTree = "<group>"; };
+		A9DFEE2C23951A96FD074B6498B0744B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AA53378CFFC62B926BFA4E31DCA5E80E /* loading33.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading33.png; path = LGPromptViewModule/Assets/loading33.png; sourceTree = "<group>"; };
+		AE9CAB5E13209856B9D3695B4FC4BCD8 /* Pods-LGPromptViewModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGPromptViewModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF3E6879DC5654C389F961C775C84DC1 /* hud_loading35.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading35.png; path = LGPromptViewModule/Assets/hud_loading35.png; sourceTree = "<group>"; };
+		B41DB5D974526305E16BB7A44693D0D3 /* loading22.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading22.png; path = LGPromptViewModule/Assets/loading22.png; sourceTree = "<group>"; };
+		B4F3295A5AF1618FE0AABA44DBF1AA0A /* nil_prompt@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nil_prompt@3x.png"; path = "LGPromptViewModule/Assets/nil_prompt@3x.png"; sourceTree = "<group>"; };
+		B7E2FF7B467FD3A443C018A228372258 /* loading21.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading21.png; path = LGPromptViewModule/Assets/loading21.png; sourceTree = "<group>"; };
+		B93EFD3A8DDECC91147F4EE2ED655C2E /* hud_loading16.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading16.png; path = LGPromptViewModule/Assets/hud_loading16.png; sourceTree = "<group>"; };
+		BB10F79082102D1F50BBF314CAC459FF /* loading3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading3.png; path = LGPromptViewModule/Assets/loading3.png; sourceTree = "<group>"; };
+		BD1DCC022DA64D9E0CEF76A0BB10CA78 /* loading28.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading28.png; path = LGPromptViewModule/Assets/loading28.png; sourceTree = "<group>"; };
+		BD54D54E3CAD6F339261FC7035D8EDCE /* loading23.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading23.png; path = LGPromptViewModule/Assets/loading23.png; sourceTree = "<group>"; };
+		BFFCA9906B8FF438E6412431A888644B /* hud_loading10.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading10.png; path = LGPromptViewModule/Assets/hud_loading10.png; sourceTree = "<group>"; };
+		C25B2C8E38F2657F5C783AC670C3127F /* loading8.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading8.png; path = LGPromptViewModule/Assets/loading8.png; sourceTree = "<group>"; };
+		C7C840E9E3FCB0034596CB19CD533EEE /* hud_loading3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading3.png; path = LGPromptViewModule/Assets/hud_loading3.png; sourceTree = "<group>"; };
+		C9142A22D03B0EA540C1990DE565A068 /* Pods-LGPromptViewModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGPromptViewModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9E828EEACA6E5EC60E46D89DBA4D959 /* hud_loading14.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading14.png; path = LGPromptViewModule/Assets/hud_loading14.png; sourceTree = "<group>"; };
+		CC8E025C6F1D22A69BBBDFE52D3B8699 /* LGNetFailedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGNetFailedView.m; path = LGPromptViewModule/Classes/LGNetFailedView.m; sourceTree = "<group>"; };
+		CE8B380628B3393E096DF948D7103E5E /* hud_loading20.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading20.png; path = LGPromptViewModule/Assets/hud_loading20.png; sourceTree = "<group>"; };
+		CF68772B325489B6C87AEAEF32870EEA /* loading31.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading31.png; path = LGPromptViewModule/Assets/loading31.png; sourceTree = "<group>"; };
+		D0893E9977C21A4C6FEF8463D142D0A9 /* Pods-LGPromptViewModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGPromptViewModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D338D55CFA0AD0A8B18FFAF577A83650 /* hud_loading4.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading4.png; path = LGPromptViewModule/Assets/hud_loading4.png; sourceTree = "<group>"; };
+		D3659030155E7BC519B173971E10649B /* loading6.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading6.png; path = LGPromptViewModule/Assets/loading6.png; sourceTree = "<group>"; };
+		D5360D1B0FB2F77A613A3C637EA041AB /* hud_loading11.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading11.png; path = LGPromptViewModule/Assets/hud_loading11.png; sourceTree = "<group>"; };
+		D8ED4951A146B2A3BF20698C51B5FFFF /* hud_loading27.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading27.png; path = LGPromptViewModule/Assets/hud_loading27.png; sourceTree = "<group>"; };
+		DAF35D044B4F4E9E8D087A7C97997A35 /* libLGPromptViewModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLGPromptViewModule.a; path = libLGPromptViewModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5006393D7F765D4010B08DC070338E /* loading10.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading10.png; path = LGPromptViewModule/Assets/loading10.png; sourceTree = "<group>"; };
+		DFF79E2AB2A4A0BE3EB8369A40E83B9C /* hud_loading1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading1.png; path = LGPromptViewModule/Assets/hud_loading1.png; sourceTree = "<group>"; };
+		E3698A06280B3803D5CE1BE214F9B89A /* Pods-LGPromptViewModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGPromptViewModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E5CFFAA99CCE75308C2415D81E277E00 /* hud_loading23.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading23.png; path = LGPromptViewModule/Assets/hud_loading23.png; sourceTree = "<group>"; };
+		E77D16652BE47F4CBB26B84D090C2BD1 /* loading0.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading0.png; path = LGPromptViewModule/Assets/loading0.png; sourceTree = "<group>"; };
+		EBAF590A46D4C9A01ACD5E2C763E1027 /* loading26.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading26.png; path = LGPromptViewModule/Assets/loading26.png; sourceTree = "<group>"; };
+		EBDF4BE084AE9376288A46EBA562F7A4 /* UIImage+LGHUDModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+LGHUDModule.m"; path = "LGPromptViewModule/Classes/UIImage+LGHUDModule.m"; sourceTree = "<group>"; };
+		ED58BE1FF8557A0325E47D4B4BD8372F /* ResourceBundle-LGPromptViewModule-LGPromptViewModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LGPromptViewModule-LGPromptViewModule-Info.plist"; sourceTree = "<group>"; };
+		F24AB0AD6C72E34F6D0AC593E05CBC3D /* hud_loading31.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading31.png; path = LGPromptViewModule/Assets/hud_loading31.png; sourceTree = "<group>"; };
+		F818D9E503759A0E23FFE7194DF1110D /* LGPromptViewModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGPromptViewModule.xcconfig; sourceTree = "<group>"; };
+		F943C79DB0553A0A9BE0CB5B97E345CD /* loading30.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading30.png; path = LGPromptViewModule/Assets/loading30.png; sourceTree = "<group>"; };
+		FBA44280F998DAB7D3ECD9B272603762 /* LGPromptViewModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LGPromptViewModule.bundle; path = "LGPromptViewModule-LGPromptViewModule.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2B2DF2DB939B3A8A6BB5025B059456 /* hud_loading22.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = hud_loading22.png; path = LGPromptViewModule/Assets/hud_loading22.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02004DEF0C2C859F7DFFC4FC54AFB090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2997B3681B3EEE7F988D088A8BEFF166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5F86E2F405FAEA4D25F645BB849DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6644C3CA73EA994905AAB2EB34C6764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A66D023CE7B0BA655AB5937B7C32E38 /* Pods-LGPromptViewModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D0893E9977C21A4C6FEF8463D142D0A9 /* Pods-LGPromptViewModule_Example-acknowledgements.markdown */,
+				247AC753E9EFA8F185D24F8151C833A2 /* Pods-LGPromptViewModule_Example-acknowledgements.plist */,
+				08051E59AD02D1B9ADCC4D7DDEE5B253 /* Pods-LGPromptViewModule_Example-dummy.m */,
+				9585E36CCBD1126168002E285FA5E01B /* Pods-LGPromptViewModule_Example-resources.sh */,
+				E3698A06280B3803D5CE1BE214F9B89A /* Pods-LGPromptViewModule_Example.debug.xcconfig */,
+				21D170E7DBD981696A9D260FA3378852 /* Pods-LGPromptViewModule_Example.release.xcconfig */,
+			);
+			name = "Pods-LGPromptViewModule_Example";
+			path = "Target Support Files/Pods-LGPromptViewModule_Example";
+			sourceTree = "<group>";
+		};
+		5A3C623A64DDE26DA037DF0DAFF571D7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E34424DF8768665644BD2A25F69C39FB /* LGPromptViewModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6138651FFFF1CA120117B16DDE830DB4 /* Pods-LGPromptViewModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C9142A22D03B0EA540C1990DE565A068 /* Pods-LGPromptViewModule_Tests-acknowledgements.markdown */,
+				3DDD7236C822C15737DC94B6AF8A860A /* Pods-LGPromptViewModule_Tests-acknowledgements.plist */,
+				08063C44C9C2ABF9012F8B4826C09836 /* Pods-LGPromptViewModule_Tests-dummy.m */,
+				AE9CAB5E13209856B9D3695B4FC4BCD8 /* Pods-LGPromptViewModule_Tests.debug.xcconfig */,
+				0B1CB8622C2054DBD3605C672EC65FDE /* Pods-LGPromptViewModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-LGPromptViewModule_Tests";
+			path = "Target Support Files/Pods-LGPromptViewModule_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5A3C623A64DDE26DA037DF0DAFF571D7 /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				E67CB830D7A81D0841D0D89A941E77D8 /* Products */,
+				FEEDFAABA5519D21727E635FFADE9B86 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		806C304BA14D3D0F1DA1EF07037D6C83 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				70F939F0568E5FC311A9A571472D2DE1 /* LGPromptViewModule.podspec */,
+				199E33ABA034F114569594946316DCC8 /* LICENSE */,
+				A9DFEE2C23951A96FD074B6498B0744B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		83CD958D521B1C2594E17ABAE8084DE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFF79E2AB2A4A0BE3EB8369A40E83B9C /* hud_loading1.png */,
+				BFFCA9906B8FF438E6412431A888644B /* hud_loading10.png */,
+				D5360D1B0FB2F77A613A3C637EA041AB /* hud_loading11.png */,
+				A7BE93AD68E21A085357261F3D503ADD /* hud_loading12.png */,
+				6E9BC5F5CBD7A957EC3CCC80A4BA5387 /* hud_loading13.png */,
+				C9E828EEACA6E5EC60E46D89DBA4D959 /* hud_loading14.png */,
+				4B97164E09D4FEEEFEBE39970E766D8B /* hud_loading15.png */,
+				B93EFD3A8DDECC91147F4EE2ED655C2E /* hud_loading16.png */,
+				3E9A695BCB0F0BFC8BA7E3AA172E53D1 /* hud_loading17.png */,
+				563BD00F0575DC456BBC11F5C08031E7 /* hud_loading18.png */,
+				1DCE05B9D384D882FE50336E72E7FF0A /* hud_loading19.png */,
+				55AEBE6793716D447F9DAF64879388C9 /* hud_loading2.png */,
+				CE8B380628B3393E096DF948D7103E5E /* hud_loading20.png */,
+				678A2DD2B22B217DF3027116E399243C /* hud_loading21.png */,
+				FE2B2DF2DB939B3A8A6BB5025B059456 /* hud_loading22.png */,
+				E5CFFAA99CCE75308C2415D81E277E00 /* hud_loading23.png */,
+				66CA873D74585863BDEE132A9EF71B4D /* hud_loading24.png */,
+				9894AD76B4EBAB7610895E8CF6EF10A8 /* hud_loading25.png */,
+				42A6CD3F7AACFDACE942D7A97989E880 /* hud_loading26.png */,
+				D8ED4951A146B2A3BF20698C51B5FFFF /* hud_loading27.png */,
+				0FDE6436790E8F9755F2EDBD25AA353B /* hud_loading28.png */,
+				0C57C5D63243E63DB7F15608093DFD06 /* hud_loading29.png */,
+				C7C840E9E3FCB0034596CB19CD533EEE /* hud_loading3.png */,
+				16C6C106887BFEC79B7F4A405F20BAA4 /* hud_loading30.png */,
+				F24AB0AD6C72E34F6D0AC593E05CBC3D /* hud_loading31.png */,
+				7CFF4844E5995E2F66136A9BBCAD308B /* hud_loading32.png */,
+				26FD8B7F787640DE3E98A724B7AFD47B /* hud_loading33.png */,
+				334628924B29A48C32E8F457AA00CE30 /* hud_loading34.png */,
+				AF3E6879DC5654C389F961C775C84DC1 /* hud_loading35.png */,
+				A983AB63F457CC53BE598D3C9433BAFE /* hud_loading36.png */,
+				7D09C8E01C6D75AAA120EA66FF74130A /* hud_loading37.png */,
+				9BF3CD0B71C1FFDE0DBD97D6125DCD26 /* hud_loading38.png */,
+				3F4206750C3F4E970A30FE1A5A8D8A7F /* hud_loading39.png */,
+				D338D55CFA0AD0A8B18FFAF577A83650 /* hud_loading4.png */,
+				7A63A5FD8199B6632101A2B7D7E2E270 /* hud_loading40.png */,
+				16A4CC2D2351C4010328FA39C791BB11 /* hud_loading5.png */,
+				56CB4C3CEF7B523D2722ABD7F840015D /* hud_loading6.png */,
+				4136A5AA16443D1ED9A8F849B2279990 /* hud_loading7.png */,
+				0F5F2744DEC7AC49E38820ACE00E9BD6 /* hud_loading8.png */,
+				19BC7832D9D550B1DD30115C2D43C58E /* hud_loading9.png */,
+				E77D16652BE47F4CBB26B84D090C2BD1 /* loading0.png */,
+				015C5678650A30FC8A804419AC8769C3 /* loading1.png */,
+				DB5006393D7F765D4010B08DC070338E /* loading10.png */,
+				394B9F32FA47C21CC3D165DAB494A379 /* loading11.png */,
+				7F5595132AC7646FFF66098AD0383B83 /* loading12.png */,
+				175A316F6556C6AC7C6C2F9B769A52F2 /* loading13.png */,
+				2696F5C0653748BCDE9112E7277011D8 /* loading14.png */,
+				0A0B0E291C55B61FB2C855AB16DC26E8 /* loading15.png */,
+				515190F6160DF607CA0CFCD51EB7EE17 /* loading16.png */,
+				8D59657B1E00BD9C8552D7DB02288C25 /* loading17.png */,
+				4A5333B0800D8711B44D282B8CAD353E /* loading18.png */,
+				53DC00F733FF3D0CB4D6ABF6755F6CF0 /* loading19.png */,
+				58D971FD9FECBC8FFE09CB0DC08C25C2 /* loading2.png */,
+				0C973CD4BA511FFCB545CEF4F1F7E721 /* loading20.png */,
+				B7E2FF7B467FD3A443C018A228372258 /* loading21.png */,
+				B41DB5D974526305E16BB7A44693D0D3 /* loading22.png */,
+				BD54D54E3CAD6F339261FC7035D8EDCE /* loading23.png */,
+				309F8677291C4058415784C7B31E04B0 /* loading24.png */,
+				282B0F024FD478A95A1E2F59D7194CEE /* loading25.png */,
+				EBAF590A46D4C9A01ACD5E2C763E1027 /* loading26.png */,
+				623045AF745380FD9056949445079EFC /* loading27.png */,
+				BD1DCC022DA64D9E0CEF76A0BB10CA78 /* loading28.png */,
+				64CDC84FAD0AC44783492189142FEDAB /* loading29.png */,
+				BB10F79082102D1F50BBF314CAC459FF /* loading3.png */,
+				F943C79DB0553A0A9BE0CB5B97E345CD /* loading30.png */,
+				CF68772B325489B6C87AEAEF32870EEA /* loading31.png */,
+				05B4E9671C614654B436BCCCAF07B888 /* loading32.png */,
+				AA53378CFFC62B926BFA4E31DCA5E80E /* loading33.png */,
+				43113BD8A8F5B11995CCFEA8697AD287 /* loading34.png */,
+				125AFF574F162A7312D5678099B34726 /* loading35.png */,
+				439E61D09DAB16617A714E3E664956CE /* loading4.png */,
+				0DE109608E6E90430BB82036EBA22159 /* loading5.png */,
+				D3659030155E7BC519B173971E10649B /* loading6.png */,
+				05AD15930D7FDE55D51E798BA2CEFDBC /* loading7.png */,
+				C25B2C8E38F2657F5C783AC670C3127F /* loading8.png */,
+				40D0C988ED2264A946E8CAB5D11D1DA9 /* loading9.png */,
+				768AA2496715FB403286DDCF3389B70B /* networking_failed@2x.png */,
+				74C7D7A01947CE2EC4A03BDF329BD004 /* networking_failed@3x.png */,
+				39DEAB147024F9DA2CA163FAFF9767F2 /* nil_prompt@2x.png */,
+				B4F3295A5AF1618FE0AABA44DBF1AA0A /* nil_prompt@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CC94D3380BB5AD86329CA8B89926DA3F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F818D9E503759A0E23FFE7194DF1110D /* LGPromptViewModule.xcconfig */,
+				5B670D6F351EACCFC89047AC294A5778 /* LGPromptViewModule-dummy.m */,
+				42C24E81128FC92A01FB46CA131FE281 /* LGPromptViewModule-prefix.pch */,
+				ED58BE1FF8557A0325E47D4B4BD8372F /* ResourceBundle-LGPromptViewModule-LGPromptViewModule-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LGPromptViewModule";
+			sourceTree = "<group>";
+		};
+		E34424DF8768665644BD2A25F69C39FB /* LGPromptViewModule */ = {
+			isa = PBXGroup;
+			children = (
+				A8217443C884679428E4F4AE870E378E /* LGLoadingMoreView.h */,
+				7DB30372926A01C6D74A56268A01ECE1 /* LGLoadingMoreView.m */,
+				866198C5F79044062B1CEDA02B49A2F9 /* LGNetFailedView.h */,
+				CC8E025C6F1D22A69BBBDFE52D3B8699 /* LGNetFailedView.m */,
+				6B7C00C5AF58F1FD8697CA1E6F62B8C3 /* LGNoDataView.h */,
+				6528FAC35EA3F6B212845F5D8D9989B4 /* LGNoDataView.m */,
+				8E23A834CC8A34B6D7B23467D8D04889 /* LGRefreshView.h */,
+				A5045C83BE5E775E4D1E626FFE8A76DA /* LGRefreshView.m */,
+				768FC9D0210EB4612AAC5282E608DE77 /* LGToastView.h */,
+				6C4270193BF818CADC373A856502AC24 /* LGToastView.m */,
+				9A0C656AF1917BE7E5415CB4364BA0CA /* UIImage+LGHUDModule.h */,
+				EBDF4BE084AE9376288A46EBA562F7A4 /* UIImage+LGHUDModule.m */,
+				806C304BA14D3D0F1DA1EF07037D6C83 /* Pod */,
+				83CD958D521B1C2594E17ABAE8084DE4 /* Resources */,
+				CC94D3380BB5AD86329CA8B89926DA3F /* Support Files */,
+			);
+			name = LGPromptViewModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E67CB830D7A81D0841D0D89A941E77D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBA44280F998DAB7D3ECD9B272603762 /* LGPromptViewModule.bundle */,
+				DAF35D044B4F4E9E8D087A7C97997A35 /* libLGPromptViewModule.a */,
+				1D4EDEFA27136679AC78540B84441BCB /* libPods-LGPromptViewModule_Example.a */,
+				09AADF43DF581107BDDC837EA44B9E35 /* libPods-LGPromptViewModule_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEEDFAABA5519D21727E635FFADE9B86 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A66D023CE7B0BA655AB5937B7C32E38 /* Pods-LGPromptViewModule_Example */,
+				6138651FFFF1CA120117B16DDE830DB4 /* Pods-LGPromptViewModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		367C6ACA37A3A151226619C199ABCD31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C92B0CF553A3763265B0719780BD94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E54A9D218BF30CBAF3B063879FFC26 /* LGLoadingMoreView.h in Headers */,
+				9F92EDDCE2D82BFB2D07150E095670CB /* LGNetFailedView.h in Headers */,
+				0BCA19F708A933B8FF77A9B1412ED1A4 /* LGNoDataView.h in Headers */,
+				9781AC14FA65D16CF70F8CC93DA68BB8 /* LGRefreshView.h in Headers */,
+				1EFCFE9FE4C4CC2C21C5561E9AFE60BC /* LGToastView.h in Headers */,
+				66CB15F3DAC9D4A2C2D8D6A65D4B1841 /* UIImage+LGHUDModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C2D2804CEB816F9F33662AD1438B1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		619D1603875DEE8FA8BBBACF8107ED3F /* LGPromptViewModule-LGPromptViewModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40903837B019BC0A75AF7537C9A1CCC6 /* Build configuration list for PBXNativeTarget "LGPromptViewModule-LGPromptViewModule" */;
+			buildPhases = (
+				4CAEE5721D38D19F57224410998ED42A /* Sources */,
+				5E5F86E2F405FAEA4D25F645BB849DCC /* Frameworks */,
+				7BA25F922C27D116D88671810C4177FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LGPromptViewModule-LGPromptViewModule";
+			productName = "LGPromptViewModule-LGPromptViewModule";
+			productReference = FBA44280F998DAB7D3ECD9B272603762 /* LGPromptViewModule.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		71387AD89608A0E9AF6D1A64D7D2CB01 /* Pods-LGPromptViewModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13547E5389449642F195B7A07B9E464C /* Build configuration list for PBXNativeTarget "Pods-LGPromptViewModule_Example" */;
+			buildPhases = (
+				E7C2D2804CEB816F9F33662AD1438B1B /* Headers */,
+				DA829BAC8D65589B3DD305CE495BA002 /* Sources */,
+				2997B3681B3EEE7F988D088A8BEFF166 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44AD47C6C9DA9BC3B111B33C1637BC74 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGPromptViewModule_Example";
+			productName = "Pods-LGPromptViewModule_Example";
+			productReference = 1D4EDEFA27136679AC78540B84441BCB /* libPods-LGPromptViewModule_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7EF4CC5825413D97C9EC3B02FED4601C /* LGPromptViewModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F73DD7F87A0D83E0ADAD7791482F96F /* Build configuration list for PBXNativeTarget "LGPromptViewModule" */;
+			buildPhases = (
+				B7C92B0CF553A3763265B0719780BD94 /* Headers */,
+				CC0CDEBAF0E56D623C91D63D5DAF81BA /* Sources */,
+				F6644C3CA73EA994905AAB2EB34C6764 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB7F01CCC8B391F77A1D9A7C1296438 /* PBXTargetDependency */,
+			);
+			name = LGPromptViewModule;
+			productName = LGPromptViewModule;
+			productReference = DAF35D044B4F4E9E8D087A7C97997A35 /* libLGPromptViewModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9F4BB1F36BA2483A0E485EC83D4FCFB4 /* Pods-LGPromptViewModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9EEDF98B41D64ACE881D7F533E0607A /* Build configuration list for PBXNativeTarget "Pods-LGPromptViewModule_Tests" */;
+			buildPhases = (
+				367C6ACA37A3A151226619C199ABCD31 /* Headers */,
+				5553B29EBA4C9628582985114F165B29 /* Sources */,
+				02004DEF0C2C859F7DFFC4FC54AFB090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E29CF73010EDA8443F51CB0412886759 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGPromptViewModule_Tests";
+			productName = "Pods-LGPromptViewModule_Tests";
+			productReference = 09AADF43DF581107BDDC837EA44B9E35 /* libPods-LGPromptViewModule_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E67CB830D7A81D0841D0D89A941E77D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EF4CC5825413D97C9EC3B02FED4601C /* LGPromptViewModule */,
+				619D1603875DEE8FA8BBBACF8107ED3F /* LGPromptViewModule-LGPromptViewModule */,
+				71387AD89608A0E9AF6D1A64D7D2CB01 /* Pods-LGPromptViewModule_Example */,
+				9F4BB1F36BA2483A0E485EC83D4FCFB4 /* Pods-LGPromptViewModule_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BA25F922C27D116D88671810C4177FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584C9F6D5C22102AB3D07FCCE0DA6954 /* hud_loading1.png in Resources */,
+				31D78E9D09B7F00A6C694978F6DD12F1 /* hud_loading10.png in Resources */,
+				0808F36542B9451C4DE84B79E06B4EB4 /* hud_loading11.png in Resources */,
+				AEE56F2E826FF567919209FC83CACE47 /* hud_loading12.png in Resources */,
+				48B8DD60E86A80651978468D4878DD28 /* hud_loading13.png in Resources */,
+				256DA201C9675A130FCA4861548BB661 /* hud_loading14.png in Resources */,
+				974D009A5B9BC865567A4A7AEF3B6568 /* hud_loading15.png in Resources */,
+				6421515B864DDBF7996C3CCA8F7B1580 /* hud_loading16.png in Resources */,
+				24E144CFAEED98A65C5D70F83D1F671D /* hud_loading17.png in Resources */,
+				09BD9FD354A9AB0751F6CE97BDE5ED13 /* hud_loading18.png in Resources */,
+				18B6DEF31461B927CBA5EDEE6270945D /* hud_loading19.png in Resources */,
+				B40BC37E0DBAF074E92AFEB0857AD3CF /* hud_loading2.png in Resources */,
+				056F2347CB46D6D0C50BC9C07070BDB0 /* hud_loading20.png in Resources */,
+				E5A87301BC1AE3B538A8E25D94A970E5 /* hud_loading21.png in Resources */,
+				91F854BC84835C9A5149D92F554E4879 /* hud_loading22.png in Resources */,
+				C196A9D616828A0AAE7A278DB3A03420 /* hud_loading23.png in Resources */,
+				3CF0FEBD570E3348BB0484748D161C36 /* hud_loading24.png in Resources */,
+				46D114FB3743CE76B0E590859C2FC9F1 /* hud_loading25.png in Resources */,
+				857A1A2C41181CB0E1187906DBF506DE /* hud_loading26.png in Resources */,
+				DF12B1DE099B616C2E3736E1E6BF54E6 /* hud_loading27.png in Resources */,
+				672798B4972B5A3089C7ACAE9DA15CFA /* hud_loading28.png in Resources */,
+				A11EAD4FC7FB049F9B2F75A4B3C2BD0B /* hud_loading29.png in Resources */,
+				1502DB05FA67FF663CC59D5F9982C42F /* hud_loading3.png in Resources */,
+				E557496C79BD397FC8B3C39F9CA49AC0 /* hud_loading30.png in Resources */,
+				AE3AC0070C84958221BD77946B902B1B /* hud_loading31.png in Resources */,
+				1AFC1ED1740A8F22A501ED9E6C955F59 /* hud_loading32.png in Resources */,
+				76F4DBF62802EC612891D73B4A6C0680 /* hud_loading33.png in Resources */,
+				713FFC912CD58B9C02F254CE1C14280A /* hud_loading34.png in Resources */,
+				0A5E167DAAD268E4C1685C673ED23907 /* hud_loading35.png in Resources */,
+				D7C017332FF55F6FA41263909FC81ECF /* hud_loading36.png in Resources */,
+				2BDBC2EE020176DB6452C4E6912DDBF9 /* hud_loading37.png in Resources */,
+				E7F79679A8880225733401B4071A6FA3 /* hud_loading38.png in Resources */,
+				5C4859378D1A76ECBD57F44F97CBCE66 /* hud_loading39.png in Resources */,
+				CEEB680C83A26C199B136F7374A73E94 /* hud_loading4.png in Resources */,
+				9BD3D5BD943D752E30ADE16B9A0FEA57 /* hud_loading40.png in Resources */,
+				DE5C1084D7B97D5752054A0B4CEDD5B4 /* hud_loading5.png in Resources */,
+				4E948E0E9281E60A9B613259D1007F55 /* hud_loading6.png in Resources */,
+				7BC9C8B8F3A6A41ABC238A5E81B4FAEF /* hud_loading7.png in Resources */,
+				8891940455F9DC0418C118CD7B74C8EE /* hud_loading8.png in Resources */,
+				5E188B232E3EFA60A3195439462A95A8 /* hud_loading9.png in Resources */,
+				8209DD2ABDAB3D39FCA5C7F47591EF29 /* loading0.png in Resources */,
+				E1AF7896A0343C800FE7E7DBEA304D8B /* loading1.png in Resources */,
+				A5B101F512E43D49BEAE5B5E1CE72316 /* loading10.png in Resources */,
+				5D6CFEE9AED67F183EB701F3CF052130 /* loading11.png in Resources */,
+				79F756CB8F686415B3B638FC6901BAFB /* loading12.png in Resources */,
+				EE1E235CC2194D5A6350D2887AA7EB67 /* loading13.png in Resources */,
+				1892CA403187054175D6B4FBC4E37A78 /* loading14.png in Resources */,
+				92A0D8FF5AA487ED8318270E4D61C759 /* loading15.png in Resources */,
+				328C7C0BD9C338D0F03AE67BF38228AB /* loading16.png in Resources */,
+				3DE77BAE25D3C3AEFFCF19F2A258913C /* loading17.png in Resources */,
+				3433E80823D843FEC428BF0D16CEAA63 /* loading18.png in Resources */,
+				F2533F6DC02CB6BC148D399629823E0B /* loading19.png in Resources */,
+				AE826DE6E2F2AF2544B51CE122506390 /* loading2.png in Resources */,
+				30FBFE93FFDFA2536D677F6EAEECDD29 /* loading20.png in Resources */,
+				61339DE25F69EA57E6E495637A526F0E /* loading21.png in Resources */,
+				90FAAC5EB95EBC24D6D9B6A5EB950CB3 /* loading22.png in Resources */,
+				1E4B1A060480CC4628118FF641FA6949 /* loading23.png in Resources */,
+				AC43F73BB86EE5FC363048C8F9ECE025 /* loading24.png in Resources */,
+				7845E9F88C5E11C4D347C84A79BD98E5 /* loading25.png in Resources */,
+				6223E6BBA700FC7F3D35312B03A4FEA5 /* loading26.png in Resources */,
+				50F207F86C481B17EDDBAB3C29E88CC6 /* loading27.png in Resources */,
+				FDC7742A290C5FCC6BBF316E5CBE2EBB /* loading28.png in Resources */,
+				17C0EC99EDC5E350A0EA618BBCDF478C /* loading29.png in Resources */,
+				CD216FA5B347E2AAD684E65B4C5F09F2 /* loading3.png in Resources */,
+				2370A796FE97B21D0CC80C797F3537F1 /* loading30.png in Resources */,
+				0A937BB30C41598682642A0A119B72A4 /* loading31.png in Resources */,
+				B64C04185D0FCE99879500164114BC6B /* loading32.png in Resources */,
+				9BFFAD7637234E0608AAA0964FBFD74F /* loading33.png in Resources */,
+				514A6A0E1EEE6E412B1A8B631E07B9DC /* loading34.png in Resources */,
+				96715B5A07ED37B93B8219FDE5E2298D /* loading35.png in Resources */,
+				5C83AB3ECF71AEBCD327F44143396596 /* loading4.png in Resources */,
+				5F77AE6990924BDA9F59E8762B909811 /* loading5.png in Resources */,
+				CF97F88167AE24A6307A0067A4740B3C /* loading6.png in Resources */,
+				93629C29B6322C9A357AEDD463D49C77 /* loading7.png in Resources */,
+				FED6AB1FD3DE8AD4C32AE071BA205CA8 /* loading8.png in Resources */,
+				A5AA878194F44E42A3062903CC9A3CC1 /* loading9.png in Resources */,
+				96C8C5F56ABC0D2871202AAA85B70FA4 /* networking_failed@2x.png in Resources */,
+				D5F91DE06D6C599050A0D09A0D367CA6 /* networking_failed@3x.png in Resources */,
+				2817CB1C7685844DB4AC2A7EF1658018 /* nil_prompt@2x.png in Resources */,
+				4C87272E2E678C708D3B45732B1DFA45 /* nil_prompt@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CAEE5721D38D19F57224410998ED42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5553B29EBA4C9628582985114F165B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093C17CBD620B7B407E952EA2CE7797C /* Pods-LGPromptViewModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0CDEBAF0E56D623C91D63D5DAF81BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AE196CA7146DE72FBEAF1AB625320F /* LGLoadingMoreView.m in Sources */,
+				D41680AA8B822DA6DE9DF494B6485F3A /* LGNetFailedView.m in Sources */,
+				9AA982A75C499CC2BA6DCC47DB407162 /* LGNoDataView.m in Sources */,
+				6925C60F5EA62E4DA062996B1D6C75C7 /* LGPromptViewModule-dummy.m in Sources */,
+				15FDD06B65E49A5E3AAFCF5439A3FD0A /* LGRefreshView.m in Sources */,
+				31C7023281CCE334CD899918B726A6B6 /* LGToastView.m in Sources */,
+				3C4B7AF0AFF338B247867EC8435CCC3D /* UIImage+LGHUDModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA829BAC8D65589B3DD305CE495BA002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF77142A035001F5A195BA6B5EB78C12 /* Pods-LGPromptViewModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44AD47C6C9DA9BC3B111B33C1637BC74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGPromptViewModule;
+			target = 7EF4CC5825413D97C9EC3B02FED4601C /* LGPromptViewModule */;
+			targetProxy = 3AC961E33C0EE6DA42FCA975C2AA33D3 /* PBXContainerItemProxy */;
+		};
+		8EB7F01CCC8B391F77A1D9A7C1296438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LGPromptViewModule-LGPromptViewModule";
+			target = 619D1603875DEE8FA8BBBACF8107ED3F /* LGPromptViewModule-LGPromptViewModule */;
+			targetProxy = D190813857EAA07660494CD2E2FABCD2 /* PBXContainerItemProxy */;
+		};
+		E29CF73010EDA8443F51CB0412886759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGPromptViewModule_Example";
+			target = 71387AD89608A0E9AF6D1A64D7D2CB01 /* Pods-LGPromptViewModule_Example */;
+			targetProxy = BCB314A5E9F9199D35655A4FEBA9C751 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13AB6163670552CEBB0FF0DE679200B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9CAB5E13209856B9D3695B4FC4BCD8 /* Pods-LGPromptViewModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A55AA94B667C2A9FEFED29C9106780F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F818D9E503759A0E23FFE7194DF1110D /* LGPromptViewModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LGPromptViewModule";
+				INFOPLIST_FILE = "Target Support Files/LGPromptViewModule/ResourceBundle-LGPromptViewModule-LGPromptViewModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LGPromptViewModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		356D43B16F83CFAAD25E074F99DE13A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B1CB8622C2054DBD3605C672EC65FDE /* Pods-LGPromptViewModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		739ECF9532B21976095A0206D34D8E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F818D9E503759A0E23FFE7194DF1110D /* LGPromptViewModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LGPromptViewModule";
+				INFOPLIST_FILE = "Target Support Files/LGPromptViewModule/ResourceBundle-LGPromptViewModule-LGPromptViewModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LGPromptViewModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		85CD73E6C438797E6C54A9FFB27D5354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F818D9E503759A0E23FFE7194DF1110D /* LGPromptViewModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LGPromptViewModule/LGPromptViewModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LGPromptViewModule;
+				PRODUCT_NAME = LGPromptViewModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		990FFA03CA97B8680864CC642CE07796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D170E7DBD981696A9D260FA3378852 /* Pods-LGPromptViewModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CC593D6363BD871DE3E60B724AAB7D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3698A06280B3803D5CE1BE214F9B89A /* Pods-LGPromptViewModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F02945E5724369D9037F29BAAB39FF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F818D9E503759A0E23FFE7194DF1110D /* LGPromptViewModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LGPromptViewModule/LGPromptViewModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LGPromptViewModule;
+				PRODUCT_NAME = LGPromptViewModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13547E5389449642F195B7A07B9E464C /* Build configuration list for PBXNativeTarget "Pods-LGPromptViewModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC593D6363BD871DE3E60B724AAB7D55 /* Debug */,
+				990FFA03CA97B8680864CC642CE07796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40903837B019BC0A75AF7537C9A1CCC6 /* Build configuration list for PBXNativeTarget "LGPromptViewModule-LGPromptViewModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739ECF9532B21976095A0206D34D8E31 /* Debug */,
+				2A55AA94B667C2A9FEFED29C9106780F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F73DD7F87A0D83E0ADAD7791482F96F /* Build configuration list for PBXNativeTarget "LGPromptViewModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02945E5724369D9037F29BAAB39FF28 /* Debug */,
+				85CD73E6C438797E6C54A9FFB27D5354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9EEDF98B41D64ACE881D7F533E0607A /* Build configuration list for PBXNativeTarget "Pods-LGPromptViewModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AB6163670552CEBB0FF0DE679200B1 /* Debug */,
+				356D43B16F83CFAAD25E074F99DE13A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
